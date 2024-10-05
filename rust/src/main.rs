@@ -1,4 +1,5 @@
 use crate::linear::linear;
+
 mod linear;
 
 fn main() {

@@ -4,3 +4,15 @@ pub fn linear<T: std::cmp::PartialEq>(needle: T, haystack: Vec<T>) -> bool {
 	}
 	return false
 }
+
+use rstest::rstest;
+
+#[cfg(test)]
+mod tests {
+	use super::*;
+	
+	#[test]
+	fn it_finds() {
+		let result = true;
+	}
+}
